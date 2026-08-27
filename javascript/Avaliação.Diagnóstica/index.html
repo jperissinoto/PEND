@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre Mim - João Pedro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <h1>João Pedro</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção inicial -->
+        <section id="inicio" class="inicio">
+
+            <div class="texto-inicio">
+                <p class="subtitulo">Olá, seja bem-vindo!</p>
+
+                <h2>Meu nome é João Pedro</h2>
+
+                <p>
+                    Sou estudante e tenho interesse por tecnologia,
+                    programação e desenvolvimento de projetos.
+                </p>
+
+                <a href="#sobre" class="botao">Conheça mais</a>
+            </div>
+
+        </section>
+
+
+        <!-- Sobre mim -->
+        <section id="sobre" class="sobre">
+
+            <h2>Sobre Mim</h2>
+
+            <div class="sobre-conteudo">
+
+                <div class="foto">
+                    <div class="icone">👨‍💻</div>
+                </div>
+
+                <div class="texto-sobre">
+
+                    <h3>Quem sou eu?</h3>
+
+                    <p>
+                        Sou uma pessoa interessada em aprender coisas novas
+                        e desenvolver minhas habilidades na área de tecnologia.
+                    </p>
+
+                    <p>
+                        Gosto principalmente de programação, desenvolvimento
+                        de sites e criação de projetos utilizando HTML, CSS,
+                        JavaScript e outras tecnologias.
+                    </p>
+
+                    <p>
+                        Meu objetivo é continuar estudando e adquirir cada vez
+                        mais conhecimento para criar projetos úteis e criativos.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projetos -->
+        <section id="projetos" class="projetos">
+
+            <h2>Meus Projetos</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <span>🌐</span>
+
+                    <h3>Site Pessoal</h3>
+
+                    <p>
+                        Desenvolvimento de uma página pessoal utilizando
+                        HTML e CSS.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <span>💻</span>
+
+                    <h3>Projetos Web</h3>
+
+                    <p>
+                        Criação de páginas e sistemas utilizando
+                        HTML, CSS e JavaScript.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <span>📱</span>
+
+                    <h3>Aplicativos</h3>
+
+                    <p>
+                        Interesse no desenvolvimento de aplicativos
+                        e novas tecnologias.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contato -->
+        <section id="contato" class="contato">
+
+            <h2>Entre em Contato</h2>
+
+            <p>
+                Preencha o formulário abaixo para enviar uma mensagem.
+            </p>
+
+            <form id="formulario">
+
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome"
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+
+                    <textarea
+                        id="mensagem"
+                        placeholder="Digite sua mensagem"
+                    ></textarea>
+                </div>
+
+
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+
+                <p id="resultado"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 João Pedro - Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

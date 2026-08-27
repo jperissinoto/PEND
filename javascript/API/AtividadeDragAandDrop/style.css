@@ -1,0 +1,72 @@
+/* Configuração geral da página */
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+/* Organiza o carro e a garagem lado a lado */
+.container {
+    display: flex;
+
+    /* Centraliza os elementos */
+    justify-content: center;
+
+    /* Espaço entre o carro e a garagem */
+    gap: 30px;
+
+    /* Espaço acima */
+    margin-top: 50px;
+}
+
+
+/* Estilo do carro */
+.carro {
+    /* Cor do fundo */
+    background-color: rgb(6, 6, 8);
+
+    /* Cor do texto */
+    color: white;
+
+    /* Espaço dentro da caixa */
+    padding: 30px;
+
+    /* Deixa os cantos arredondados */
+    border-radius: 10px;
+
+    /* Mostra que o carro pode ser arrastado */
+    cursor: grab;
+}
+
+
+/* Estilo da garagem */
+.garagem {
+    /* Cor do fundo da garagem */
+    background-color: lightgray;
+
+    /* Borda pontilhada */
+    border: 3px dashed black;
+
+    /* Espaço dentro da garagem */
+    padding: 30px;
+
+    /* Cantos arredondados */
+    border-radius: 10px;
+}
+
+
+/* Muda a cor da garagem quando o carro passa por cima */
+.garagem.destaque {
+    background-color: rgb(245, 245, 240);
+}
+
+
+/* Estilo da mensagem */
+#mensagem {
+    /* Tamanho do texto */
+    font-size: 20px;
+
+    /* Cor da mensagem */
+    color: green;
+}
